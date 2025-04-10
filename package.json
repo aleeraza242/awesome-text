@@ -1,0 +1,43 @@
+{
+  "name": "awesome-text",
+  "version": "1.0.0",
+  "description": "An enhanced React Native Text component with custom styling capabilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "text",
+    "styling",
+    "custom",
+    "component",
+    "typography",
+    "ui"
+  ],
+  "author": "Ali Raza",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.70.0",
+    "typescript": "^4.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliraza401/awesome-text.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aliraza401/awesome-text/issues"
+  },
+  "homepage": "https://github.com/aliraza401/awesome-text#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+} 
